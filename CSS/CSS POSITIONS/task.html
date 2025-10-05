@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid black;
+            position: absolute;
+        }
+        #d1{
+            top: 100px;
+            left: 100px;
+            background-color: green;
+        }
+        #d2{
+            top: 200px;
+            left: 200px;
+            background-color: blue;
+            z-index: -30;
+
+        }
+        #d3{
+            top: 300px;
+            left: 300px;
+            background-color: blueviolet;
+            z-index: -40;
+        }
+        #d4{
+            top: 400px;
+            left: 400px;
+            background-color: aqua;
+            z-index: -50;
+        }
+        #d5{
+            top: 500px;
+            left: 500px;
+            background-color: brown;
+            z-index: -60;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="box" id="d1"></div>
+    <div class="box" id="d2"></div>
+    <div class="box" id="d3"></div>
+    <div class="box" id="d4"></div>
+    <div class="box" id="d5"></div>
+    
+</body>
+</html>

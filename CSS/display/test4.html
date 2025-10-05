@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child{
+            height: 200px;
+            width: 300px;
+            border-radius:5px;
+            box-shadow: 0px 0px 30px black;
+            display: none;
+        }
+        .signin{
+            margin-left: 100px;
+        }
+        .Customer{
+            margin-left: 20px;
+        }
+        .container:hover>.child{
+            display: block;
+        }
+        .drop>a{
+            display: block;
+            padding: 20px;
+            background-color: rgb(237, 237, 5);
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .drop>a:hover{
+            background-color: rgb(14, 237, 6);
+            color: rgb(4, 4, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button>Login</button>
+        <div class="child">
+            <span class="Customer">New Customer</span>
+            <span class="signin"><a href="">Signin</a></span>
+            <hr>
+            <div class="drop">
+                <a href="">My Profile</a>
+                <a href="">Flipkart Plus</a>
+                <a href="">Orders</a>
+                <a href="">Refunds and Returns</a>
+                <a href="">Enquiry</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

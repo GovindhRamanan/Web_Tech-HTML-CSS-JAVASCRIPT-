@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey...!  Govindh Ramanan</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../fontawesome-free-7.0.1-web/fontawesome-free-7.0.1-web/css/all.css">
+    <style>
+        body{
+            background-color: rgb(5, 6, 29);
+            color: white;
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+        }
+        .items{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .leftarrow{
+            font-size: 100px;
+        }
+        .circle1{
+            height: 350px;
+            width: 350px;
+            position: relative;
+            border-radius: 300px;
+            background-color: orangered;
+            box-shadow: 0px -60px 1000px orangered;
+        }
+        .circle2{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(5, 6, 29);
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            border-radius: 300px; 
+            box-shadow: 0px -60px 1000px orangered;
+        }
+        img{
+            position: absolute;
+            top: 80px;
+            right: 150px;
+            width: 300px;
+            height: 380px;
+            z-index: 10;
+            border-radius: 300px;
+        }
+        .btn{
+            margin: 10px;
+            background-color: orangered;
+        }
+        .container>.items>h2>span{
+            color: orangered;
+        }
+        .container>.items>h2{
+            font-size: 50px;
+            margin-top: 30px;
+        }
+        .container>.items>span{
+            font-size: 50px;
+        }
+        .container>.items>span>span{
+            color: orangered;
+        }
+        nav{
+            background-color:rgb(31, 29, 36) ;
+            font-size: 20px;
+            z-index: 700;
+            width: 100%;
+            border-radius: 50px;
+        }
+        .container>.items>a{
+            text-decoration: none;
+            color: white;
+            padding: 30px;
+        }
+        .container>.items>a:hover{
+            text-decoration: none;
+            background-color: orangered;
+            color: white;
+            border-radius: 30px;
+        }
+        .container>.items>h3{
+            font-size: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+         <div class="items">
+             <h2>Hello<span>.....</span> Everyone</h2>
+             <span>I'm <span>Govindh Ramanan</span></span>
+             <h3>Full Stack Java Developer</h3>
+             <div>
+                <button class="btn btn-danger">Got a Project?</button>
+                <button class="btn btn-danger">My resume</button>
+             </div>
+         </div>
+         <div class="items">
+             <div class="leftarrow"><i class="fa-solid fa-less-than"></i><i class="fa-solid fa-greater-than"></i></div>
+             <img src="../images/portprofile-removebg-preview.png" alt="">
+             <div class="circle1">
+                <div class="circle2"></div>
+             </div>
+         </div>
+    </div>
+
+    <nav class="container">
+        <div class="items"><a href="">HTML5</a></div>
+        <div class="items"><a href="">CSS3</a></div>
+        <div class="items"><a href="">BOOTSTRAP</a></div>
+        <div class="items"><a href="">JAVASCRIPT</a></div>
+        <div class="items"><a href="">JAVA</a></div>
+        <div class="items"><a href="">DSA</a></div>
+        <div class="items"><a href="">SPRING</a></div>
+        <div class="items"><a href="">HIBERNATE</a></div>
+        <div class="items"><a href="">SQL</a></div>
+        <div class="items"><a href="">GIT</a></div>
+
+</body>
+</html>

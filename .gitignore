@@ -1,0 +1,65 @@
+# ================================
+# Web Tech Project .gitignore
+# ================================
+
+# ------------------
+# System / OS files
+# ------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+ehthumbs.db
+
+# ------------------
+# VS Code settings
+# ------------------
+.vscode/
+
+# ------------------
+# Node / dependencies (if any)
+# ------------------
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# ------------------
+# Build / distribution / backup
+# ------------------
+dist/
+build/
+out/
+temp/
+backup/
+
+# ------------------
+# Environment / secret files
+# ------------------
+.env
+.env.local
+.env.*.local
+
+# ------------------
+# Logs
+# ------------------
+*.log
+*.tmp
+*.bak
+
+# ------------------
+# External libraries (if using CDN)
+# ------------------
+bootstrap/
+fontawesome/
+
+# ------------------
+# Zip / archive files
+# ------------------
+*.zip
+*.rar
+*.7z
+
+# ------------------
+# Cache / history
+# ------------------
+.cache/
+.history/

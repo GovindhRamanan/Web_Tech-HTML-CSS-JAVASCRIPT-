@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        .container{
+            border: 10px solid black;
+            height: 620px;
+            width: 620px;
+            display: grid;
+            background-color: black;
+            grid-template-columns: repeat(3,200px);
+            grid-template-rows:repeat(3,200px);
+            gap: 10px;
+
+        }
+        .items{
+            border: 1px solid black;
+            background-color: blue;
+        }
+        .three{
+            grid-column: 3/4;
+            grid-row: 1/3;
+            
+        }
+        .four{
+            grid-column: 1/3;
+        }
+        .six{
+            grid-column: 2/4;
+        }
+        .one>img{
+            height:200px;
+            width: 200px;
+        }
+        .two>img{
+            height:200px;
+            width: 200px;
+        }
+        .five>img{
+            height:200px;
+            width: 200px;
+        }
+        .three img{
+            height: 410px;
+            width: 200px;
+        }
+        .four img{
+            height: 200px;
+            width: 410px;
+        }
+         .six img{
+            height: 200px;
+            width: 410px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="items one"><img src="../../images/drakshashruthi.jpg" alt=""></div>
+        <div class="items two"><img src="../../images/shruthivijaya.jpg" alt=""></div>
+        <div class="items three"><img src="../../images/vishal.jpg" alt=""></div>
+        <div class="items four"><img src="../../images/waterdrops.jpeg" alt=""></div>
+        <div class="items five"><img src="../../images/netflix.jpeg" alt=""></div>
+        <div class="items six"><img src="../../images/waterdrops.jpeg" alt=""></div>
+    </div>
+    
+</body>
+</html>

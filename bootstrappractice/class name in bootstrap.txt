@@ -1,0 +1,31 @@
+padding (0-5)
+p-padding
+pt-padding top-py
+pb-padding bottom-py
+ps-padding start-px
+pe-padding end-px
+
+
+Margin(0-5)
+m-margin
+m-auto-to get the element center
+mt-margin top-my
+mb-margin bottom-my
+ms-margin start-mx
+me-margin end-mx
+
+border(1-5)
+border-1
+border-2
+border-primary,border-secondary...etc..,..
+
+
+width
+w-25
+w-50
+w-75
+w-100
+
+border-radius
+circle
+rounded-pill

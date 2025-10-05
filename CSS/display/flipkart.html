@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlipKart Clone</title>
+    <link rel="stylesheet" href="../../fontawesome-free-7.0.1-web/fontawesome-free-7.0.1-web/css/all.css">
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-color: rgb(236, 233, 233);
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color:white;
+            padding: 20px;
+            font-size: 20px;
+        }
+        nav>.items>h3{
+            color: blue;
+            font-size: 25px;
+            font-family: cursive;
+        }
+        nav>.items>span{
+            color:gold;
+        }
+        nav>.items>div{
+            background-color: rgb(236, 233, 233);
+            padding: 5px;
+            border-radius: 10px;
+        }
+        nav>.items>div>input{
+            width: 300px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            background-color: rgb(236, 233, 233);   
+        }
+         .signin{
+            margin-left: 100px;
+            text-decoration: none;
+        }
+        .Customer{
+            margin-left: 20px;
+        }
+        .child{
+            height: 200px;
+            width: 300px;
+            border-radius:5px;
+            box-shadow: 0px 0px 30px black;
+            display: none;
+        }
+        nav>.items>button{
+            width: 100px;
+            padding: 10px;
+            border: none;
+            font-size: 18px;
+        }
+        nav>.items:hover>.child{
+            display:block;
+        }
+         .drop>a{
+            display: block;
+            padding: 20px;
+            background-color: rgb(250, 250, 250);
+            font-size: 20px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+        .container{
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 2px solid black;
+        }
+        .container>.items{
+            height: 250px;
+            width: 200px;
+            margin: 10px;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 0px 0px 10px rgb(0, 0, 0);
+        }
+        .container>.items>img{
+            height: 200px;
+            width: 200px;
+            box-shadow: 0px 0px 20px rgb(0, 0, 0) ;
+            
+        }
+        .container>.items>button{
+            height: 30px;
+            border:none;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            
+        }
+    </style> 
+</head>
+<body>
+        <nav>
+            <div class="items">
+                <h3><i>FlipKart</i></h2>
+                Explore <span>plus</span></span>
+            </div>
+            <div class="items">
+                <div>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="search" placeholder="Search for Products,Brands and more...">
+                </div>
+            </div>
+            <div class="items">
+                    <button><i class="fa-solid fa-circle-user"></i> Login</button>
+                    <div class="child">
+                    <span class="Customer">New Customer</span>
+                    <span class="signin"><a href="">Signin</a></span>
+                    <hr>
+                    <div class="drop">
+                    <a href="">My Profile</a>
+                    <a href="">Flipkart Plus</a>
+                    <a href="">Orders</a>
+                    <a href="">Refunds and Returns</a>
+                    <a href="">Enquiry</a>
+              </div>
+            </div>
+            </div>
+            <div class="items"><i class="fa-solid fa-cart-shopping"></i>Cart</div>
+            <div class="items"><i class="fa-solid fa-store"></i>Become a Seller</div>
+            <div class="items"><i class="fa-solid fa-ellipsis-vertical"></i></div>
+        </nav>
+        <div class="container">
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+            <div class="items">
+                <img src="../../images/download.jpeg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, molestias.</p>
+                <button>Buy now</button>
+            </div>
+        </div>
+</body>
+</html>

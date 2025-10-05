@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics</title>
+    <script>
+       let s1="12";
+       let s2="74";
+       let total=s1+s2;//here only concatenation takes place
+       console.log(total);
+
+       //From here it will do Type Coercion
+       total=s1*s2;
+       console.log(total);
+        total=s1/s2;
+       console.log(total);
+        total=s1-s2;
+       console.log(total);
+       let x=Number("Hi");
+       console.log(x);//NaN-->Not a Number
+
+       //template String
+       let name="Govindh Ramanan"
+       let degree="B.E ECE"
+       console.log(`I am ${name}, graduated in ${degree} `)
+
+    </script>
+</head>
+<body>
+    <h1>Arithmetic Operators</h1>
+</body>
+</html>
