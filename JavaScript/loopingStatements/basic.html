@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>looping statments</title>
+    <script>
+        /* i --> iterator
+		  for(initialization;condition;increment/decrement) {
+          }
+		 */
+		let i;
+		ForLoop://labels
+		for (i=1;i<=4;i++) {
+			console.log("For loop");
+			innerLoop:
+			for (i=1;i<=4;i++) {
+				console.log("For loop");
+				break ForLoop;//labelled break
+				//break,continue jumping statements
+			}
+		}
+		let a=0,b=1;
+        for(a=1, b=2;a<5||b<5;a++,b++) {
+        	console.log("for loop");
+		}//a=6,b=6
+        // while loop
+        whileLoop://Labels
+        while(a<6||b<6) {
+        	//initialization should not be done inside the while loop. Otherwise infinite loop takes place.
+        	console.log("while loop");
+        	a++;// if it is not given infinite loop will happen.
+        	b++;
+        }//a=7,b=7
+        // Do-while loop
+        let h=0;
+        do {//executed atleast once
+        	console.log("Hi I am dowhile");
+        	h++;//  if it is not given infinite loop will happen.
+        }while(h<=5);
+    //infinite loop
+		//for (;;i++) {
+		//	console.log("for loop");
+		//}
+
+    </script>
+</head>
+<body>
+    <h1>looping statments</h1>
+</body>
+</html>

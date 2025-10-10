@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statements</title>
+    <script>
+                let a=7;
+				//if
+				if (a>=0)//condition
+				{
+					console.log("Hi I am if. I will be executed only if the condition is true");
+				}
+				//if else
+				let b=120;
+				if (b<=10)
+				{
+					console.log("Hi I am if. I will be executed only when the condition is true");//but the condition is false
+				}
+				else
+				{
+					console.log("Hi I am else. I will be executed when the above condition is false");
+				}
+				//else-if ladder
+				let c=200;
+				if(c!=200) 
+				{
+					console.log("Hi I am if. I will be executed only if the condition is true");
+				}
+				else if(c==200) 
+				{
+					console.log("Hi I am else-if-1. I will be executed when the conditions listed above fails and my condition is true");
+				}
+				else if(c>200) 
+				{
+					console.log("Hi I am else-if-2. I will be executed when the conditions listed above fails and my condition is true");
+				}//else is optional for completing else-if
+				else
+				{
+					console.log("Hi I am else. I will be executed when the above condition is false");
+				}
+			 let m=0;
+			 //switch statement
+			 switch (m) {
+			 case 0:
+				 console.log("I am case 0 of switch statement");
+				 break;//jumping statement
+			 case 1:
+				 console.log("I am case 1 of switch statement");
+				 break;
+			 case 2:
+				 console.log("I am case 2 of switch statement");
+				 break;
+			default:
+				console.log("I am default of switch statement");
+			 }
+    </script>
+</head>
+<body>
+    <h1>Conditional Statements</h1>
+</body>
+</html>

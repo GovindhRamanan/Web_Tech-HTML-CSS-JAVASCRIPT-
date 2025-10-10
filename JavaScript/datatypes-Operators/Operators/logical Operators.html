@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logical Operators</title>
+    <script>
+        let a=5;
+        let b=6;
+        console.log(a>5)//false
+        console.log(a>5&&b>5)//false
+        console.log(a>5||b>5)//true
+        console.log(!a>5)//false
+        console.log(a++>5&&b++>5)//false
+        console.log(a,b)//6,6
+        console.log(a++>=5||b++>5)//true
+        console.log(a,b)//6,6
+
+
+        //falsy values
+        console.log(Boolean(0))
+        console.log(Boolean(""))
+        console.log(Boolean(NaN))
+        console.log(Boolean(undefined))
+        console.log(Boolean(null))
+        console.log(Boolean(false))
+    </script>
+</head>
+<body>
+    <h1>Logical Operators</h1>
+</body>
+</html>
