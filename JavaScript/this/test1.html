@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spread Operators</title>
+    <script>
+         console.log("global context");
+        console.log(this);
+
+
+        let e1={id:101,ename:"Kiran",age:30,
+                score:function marks(){
+                    console.log("object instance");
+                    console.log(this);
+                }
+            };
+            e1.score();
+        function main(){
+            console.log("main's function declaration");
+            console.log(this);
+            let x=function (){
+                console.log("main's inner function expression")
+                console.log(this)
+            }
+            x();
+            let y=()=>{
+                console.log("main's inner function arrow")
+                console.log(this)
+            }
+            y();
+        }
+        main()
+        let c=()=>
+        {
+            console.log("global context arrow function");
+            console.log(this)
+        }
+        c();
+        
+    </script>
+</head>
+<body>
+    <h1>This Keyword</h1>
+</body>
+</html>
