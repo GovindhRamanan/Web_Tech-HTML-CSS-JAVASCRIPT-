@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paati Kadai</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        nav{
+            background:linear-gradient(45deg,red,black,white);
+        }
+        nav>h2{
+            padding: 20px;
+
+        }
+        .container{
+            margin: 10px;
+        }
+        .container>.item{
+            height: 350px;
+            width: 250px;
+            border: 5px solid rgb(145, 27, 27);
+        }
+        .container>.item>.img{
+            width: 250px;
+            height: 100px;
+        }
+        .item-desc{
+            text-align: center;
+            padding: 10px;
+        }
+        .item-desc>button{
+            border-radius: 100%;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2>👵Paati Kadai</h2>
+    </nav>
+    <section>
+        <div class="container">
+            <div class="item">
+                <img src="../../images/download.jpg" alt="">
+                
+                <div class="item-desc">
+                    <h2>Chicken Briyani</h2>
+                    <h2>&#8377 349.00</h2>
+                    <button onclick="decrease()">➖</button>
+                    <span id="count"></span>
+                    <button onclick="increase()">➕</button>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <script>
+        let qty=1;
+        let qtyval=document.getElementById("count");
+        qtyval.textContent=qty;
+
+        function increase(){
+            qty++;
+             qtyval.textContent=qty;
+
+        }
+        function decrease(){
+            if(qty>1){
+                qty--;
+                qtyval.textContent=qty;
+            }
+            else qtyval.textContent=qty;
+            
+
+        }
+
+    </script>
+</body>
+</html>
